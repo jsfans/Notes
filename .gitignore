@@ -1,0 +1,22 @@
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+##################
+## Sublime Text 2
+##################
+
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# CTags
+.tags
+.tags_sorted_by_file
