@@ -1,4 +1,5 @@
-## SASS 的内置函数
+# SASS 的内置函数
+------
 
 SASS 提供了一系列的内置函数以便于代码的阅读和对其进行维护。
 
@@ -12,52 +13,52 @@ C:\Ruby192\lib\ruby\gems\1.9.1\gems\sass-3.2.3\lib\sass\script\functions.rb。
 
 下面就来介绍一下这些内置函数。
 
-### RGB 函数
+## RGB 函数
 
-#### rgb($red, $green, $blue)
+### rgb($red, $green, $blue)
 
 返回一个[SassScript颜色对象][SASS Color Object]，该对象由一个红绿蓝色值的有序三元组转换而成，内部以 RGBA 表现。
 
 > 一个颜色的 alpha 值一定会被储存，默认值为1。alpha 通道相对独立于颜色本身的 RGB 或 HSL 表现。只对 alpha 值做修改并不影响缓存的 RGB 或 HSL 的值
 
-##### 接受参数：
+#### 接受参数：
 
 *   (Number) $red - 数字 [0~255 | 0%~100%]
 *   (Number) $green - 数字 [0~255 | 0%~100%]
 *   (Number) $blue - 数字 [0~255 | 0%~100%]
 
-##### 示例：
+#### 示例：
 
 	$red: rgb(255, 0, 0); // 纯红
 	$green: rgb(0, 100%, 0); // 纯绿
 
-#### rgba($red, $green, $blue, $alpha)
+### rgba($red, $green, $blue, $alpha)
 
-#### rgba($color, $alpha)
+### rgba($color, $alpha)
 
-#### red($color)
+### red($color)
 
-#### green($color)
+### green($color)
 
-#### blue($color)
+### blue($color)
 
-#### mix($color-1, $color-2, [$weight])
+### mix($color-1, $color-2, [$weight])
 
-### HSL 函数
+## HSL 函数
 
-#### hsl($hue, $saturation, $lightness)
+### hsl($hue, $saturation, $lightness)
 
-#### hsla($hue, $saturation, $lightness, $alpha)
+### hsla($hue, $saturation, $lightness, $alpha)
 
-#### hue($color)
+### hue($color)
 
-### 透明度函数
-### 其他颜色函数
-### 字符串函数
-### 数字函数
-### 列表函数
-### 内置工具函数
-### 其他函数
+## 透明度函数
+## 其他颜色函数
+## 字符串函数
+## 数字函数
+## 列表函数
+## 内置工具函数
+## 其他函数
 
 官方链接：[Sass::Script::Functions][SASS Functions]
 

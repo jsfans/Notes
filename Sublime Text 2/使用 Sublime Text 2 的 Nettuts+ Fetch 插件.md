@@ -1,4 +1,4 @@
-## 使用 Sublime Text 2 的 Nettuts+ Fetch 插件
+# 使用 Sublime Text 2 的 Nettuts+ Fetch 插件
 
 做项目的时候你或许需要使用最新版本的jQuery，又或者是类似HTML5 Boilerplate这样的开发包，目前你的做法可能是：访问官网，导航到下载地址；或许直接有困难找百度。
 
@@ -6,14 +6,14 @@
 
 Sublime Text 2 及其 Nettuts+ Fetch 插件粉墨登场。
 
-### 安装 Nettuts+ Fetch 插件
+## 安装 Nettuts+ Fetch 插件
 
 Nettus+ Fetch 安装方法很简单：
 
 * 最简单是通过 [Package Control][Package Control] 安装
 * 也可以手动下载 [Nettuts+ Fetch 的安装包][Nettuts+ Fetch]
 
-### 使用方法
+## 使用方法
 
 *   管理配置列表：通过命令框（`Cmd+Shift+P`，Windows系统：`Ctrl+Shift+P`）键入`Fetch: Manage`，接着会打开配置文件让你编辑。
 
@@ -36,7 +36,7 @@ Nettus+ Fetch 安装方法很简单：
 
 *   Fetch 最新的包：通过命令框键入`Fetch: Package`，在下拉列表中选择目标包回车。
 
-### 一些文件和包的配置
+## 一些文件和包的配置
 
 	{
 		"files":

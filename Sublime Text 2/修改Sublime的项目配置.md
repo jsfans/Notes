@@ -1,4 +1,4 @@
-## 修改Sublime的项目配置
+# 修改Sublime的项目配置
 
 打开项目配置文件：XXX.sublime-project，可作如下修改：
 

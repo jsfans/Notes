@@ -1,4 +1,5 @@
-## 使用 Sublime Text 2 和 Gist 管理代码片段
+# 使用 Sublime Text 2 和 Gist 管理代码片段
+------
 
 结合 [Sublime Text 2][Sublime] 的 [Gist 插件][sublime-package-gist] 和 [Github][Github] 提供的 [Gist 代码片段分享平台][Gist] ，打造出一个能够很方便的进行创建、搜索插入、更新以及版本控制的代码片段管理器。
 

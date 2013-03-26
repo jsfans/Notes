@@ -1,8 +1,9 @@
-## Git 的基本用法
+# Git 的基本用法
+------
 
 总结一下 Git 的常用命令：
 
-### 在工作目录中初始化新仓库
+## 在工作目录中初始化新仓库
 
 `$ git init`
 
@@ -14,7 +15,7 @@
     $ git add README
     $ git commit -m 'initial project version'
 
-### 从现有仓库克隆
+## 从现有仓库克隆
 
 `$ git clone git://github.com/your_user_name/your_repo.git`
 
@@ -28,11 +29,11 @@
 
 <img src="https://app.yinxiang.com/shard/s2/res/2401ffc4-736e-435d-b66d-91e7712dd368.png?resizeSmall&width=1340" alt="">
 
-### 检查当前文件状态
+## 检查当前文件状态
 
 `$ git status`
 
-### 跟踪新文件
+## 跟踪新文件
 
 `$ git add untracked_file`
 
@@ -40,7 +41,7 @@
 
 `$ git add .`
 
-### 忽略某些文件
+## 忽略某些文件
 
 要养成一开始就设置好 .gitignore 文件的习惯，以免将来误提交这类无用的文件：
 
@@ -62,7 +63,7 @@
     build/    # 忽略 build/ 目录下的所有文件
     doc/*.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
-### 查看已暂存和未暂存的更新
+## 查看已暂存和未暂存的更新
 
 要查看尚未暂存的文件更新了哪些部分，不加参数直接输入 git diff：
 

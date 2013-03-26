@@ -1,6 +1,7 @@
-## Vundle 的安装
+# Vundle 的安装
+------
 
-### 安装Git
+## 安装Git
 
 Vundle在Linux非常容易安装，在Windows下首先需要安装Git。
 
@@ -39,7 +40,7 @@ C:\Program Files (x86)\Git\cmd
 
 如果可以看到版本信息说明运行成功。
 
-### 安装Vundle
+## 安装Vundle
 
 Git安装完毕后，打开Cmd窗口，使用以下命令Clone Vundle到”D:\Vim\vimfiles\bundle”下：
 
@@ -54,7 +55,7 @@ Git安装完毕后，打开Cmd窗口，使用以下命令Clone Vundle到”D:\Vi
         |   +---vundle
         +---colors
 
-### 配置Vundle
+## 配置Vundle
 
 按照Vundle官方给出的配置，所有通过Vundle安装的插件会被安装到Windows的用户目录下，这里我做了修改，直接安装到Vim目录下更加方便管理。
 
@@ -77,7 +78,7 @@ Git安装完毕后，打开Cmd窗口，使用以下命令Clone Vundle到”D:\Vi
 	" 重新打开文件类型检查
 	filetype plugin indent on
  
-### 通过Vundle 安装插件
+## 通过Vundle 安装插件
 
 Vundle安装插件有三种形式，一种是一个从官方移植的Vim Script,只需要在配置中写脚本的名字，比如：
  
@@ -99,7 +100,7 @@ Vundle安装插件有三种形式，一种是一个从官方移植的Vim Script,
  
 `git config --global --unset http.proxy`
  
-### Vundle 常用指令
+## Vundle 常用指令
  
 + `:BundleList` 列出已经安装的插件
 + `:BundleInstall` 安装所有配置文件中的插件
