@@ -123,8 +123,8 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 
 2. **设置新建文件默认为 Markdown 格式**
 
-	- 使用 Package Control 安装 Default File Type;
-	- 新建 default_file_type.sublime-settings 保存以下内容，并丢入 Packages/User/
+   - 使用 Package Control 安装 Default File Type;
+   - 新建 default_file_type.sublime-settings 保存以下内容，并丢入 Packages/User/
 
 			{
 				"default_new_file_syntax":"Packages/Markdown/Markdown.tmLanguage",
