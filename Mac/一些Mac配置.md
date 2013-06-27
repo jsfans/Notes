@@ -114,7 +114,6 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 ### Markdown 的使用
 
 1. **修改保存 Markdown 文件的后缀为 .md**
-
 	新建 Markdown.sublime-settings 保存以下内容，并丢入 Packages/User/
 	
 		{
@@ -122,7 +121,6 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 		}
 
 2. **设置新建文件默认为 Markdown 格式**
-
    - 使用 Package Control 安装 Default File Type;
    - 新建 default_file_type.sublime-settings 保存以下内容，并丢入 Packages/User/
 
@@ -132,7 +130,6 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 			}
 	
 3. **自定义 Markdown 高亮配色方案**
-
    - 默认 Packages/Color Scheme - Default/Monokai.thTheme 配色里是没有MD高亮的，所以网上搜来份并微调之，点击下载： Monokai-custom.tmTheme ；
    - 为避免之后主程序升级覆盖，把下载到的文件丢入 Packages/User/ ；
    - 打开 Packages/User/Preferences.sublime-settings 加入以下这条
@@ -142,12 +139,10 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 			}
 
 4. **一键导出 HTML 代码**；
-
    - 使用 Package Control 安装 Markdown2Clipboard ；
    - 在 MD 文件中直接鼠标右键 Copy Markdown as HTML ;
 	
 5. **Markdown相关插件**
-
    - Markdown Preview - 预览 Markdown
    - SmartMardown - 智能的 Markdown 书写
 
