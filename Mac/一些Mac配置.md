@@ -141,10 +141,10 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 				"color_scheme": "Packages/User/Monokai-custom.tmTheme"
 			}
 
-4. **一键导出 HTML 代码**
+4. **一键导出 HTML 代码**；
 
-	- 使用 Package Control 安装 Markdown2Clipboard ；
-	- 在 MD 文件中直接鼠标右键 Copy Markdown as HTML ;
+     - 使用 Package Control 安装 Markdown2Clipboard ；
+     - 在 MD 文件中直接鼠标右键 Copy Markdown as HTML ;
 	
 5. **Markdown相关插件**
 
@@ -301,3 +301,5 @@ MySQL 可以使用运行软件包的方式安装，而使用 Homebrew 安装会�
 - Parallels Desktop - 虚拟机
 - MacVim - 编辑器之神，不必多说
 - TotalFinder - 可以让 Finder 拥有类似 Chrome 的标签式浏览功能
+- Evernote - 做笔记
+- Pocket - 剪报
