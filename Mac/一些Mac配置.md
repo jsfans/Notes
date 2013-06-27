@@ -60,22 +60,14 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 万一用得不爽了，卸载之：
 
 	cd `brew –prefix`
-
-    rm -rf Cellar
-
-    brew prune 
-
-    rm `git ls-files` 
-
-    rm -rf Library .git .gitignore bin/brew
-
-    rm  -rf README.md share/man/man1/brew
-
-    rm -rf Library/Homebrew Library/Aliases 
-
-    rm -rf Library/Formula Library/Contributions
-
-    rm -rf ~/Library/Caches/Homebrew
+	rm -rf Cellar
+	brew prune 
+	rm `git ls-files` 
+	rm -rf Library .git .gitignore bin/brew
+	rm  -rf README.md share/man/man1/brew
+	rm -rf Library/Homebrew Library/Aliases 
+	rm -rf Library/Formula Library/Contributions
+	rm -rf ~/Library/Caches/Homebrew
 
 ## Sublime Text 2 的配置
 
