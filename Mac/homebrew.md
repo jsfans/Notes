@@ -1,3 +1,8 @@
+Date: 2013-06-18
+Title: Homebrew 的使用
+Tags: homebrew,mac
+Slug: play-with-homebrew
+
 ## Homebrew 的安装
 
 Homebrew 依赖于 Xcode 和 ruby。Mac 自带 ruby，Xcode 只能在 Mac 的 App store 里面下载，有点大。
@@ -52,6 +57,12 @@ Homebrew将本地的/usr/local初始化为git的工作树，并将目录所有�
 	-Cellar       所以brew安装的程序，都将以[程序名/版本号]存放于本目录下
 	-etc          brew安装程序的配置文件默认存放路径
 	-Library      Homebrew 系统自身文件夹
+	
+### Homebrew 下载的安装包存放位置
+
+	/Library/Caches/Homebrew/
+
+对于一些不能在线下载安装的程序，可以将安装压缩包放在这个目录手动进行安装。
 	
 ## Homebrew 的卸载
 
